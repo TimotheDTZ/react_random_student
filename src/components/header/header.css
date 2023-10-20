@@ -1,0 +1,19 @@
+.header {
+    background-color: var(--color-primary);
+    padding: 10px;
+    text-align: right;
+    /* Alignement à droite */
+}
+
+.header-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+}
+
+.header-button.active {
+    font-weight: bold;
+}
