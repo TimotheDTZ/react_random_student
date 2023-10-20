@@ -1,0 +1,51 @@
+.lottery-container {
+    display: flex;
+    padding-top: 10vh;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.lottery-button {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    width: 35vw;
+    height: 10vh;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.lottery-button:hover {
+    background-color: var(--color-primary);
+}
+
+.result-box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 40vh;
+    width: 60vw;
+}
+
+.result-box p {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.not-bold {
+    font-weight: normal;
+}
